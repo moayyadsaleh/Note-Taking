@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flashcard App</title>
+  </head>
+  <body>
+    <div id="flashcard-container">
+      <div id="flashcards"></div>
+    </div>
+    <div id="controls">
+      <input type="text" id="wordInput" placeholder="Word" />
+      <input type="text" id="meaningInput" placeholder="Meaning" />
+      <button onclick="addFlashcard()">Add</button>
+      <button onclick="editFlashcard()">Edit</button>
+      <button onclick="deleteFlashcard()">Delete</button>
+    </div>
+    <p id="instructions">
+      This app is for note taking on new words and phrases. Click on a flashcard
+      to select it. Use the input fields to add, edit, or delete flashcards.
+    </p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
